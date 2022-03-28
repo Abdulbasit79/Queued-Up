@@ -7,7 +7,7 @@ export const Header = () => {
       <div  className= "container">
          <div className= "inner-content">
          <div className= "brand">
-             <a href  ="/">WatchList</a>
+             <a href  ="/">QueuedUp</a>
 
           
             </div>    
