@@ -1,35 +1,32 @@
-import React from 'react'
-// import {link} from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <header>
-      <div  className= "container">
-         <div className= "inner-content">
-         <div className= "brand">
-             <a href  ="/">QueuedUp</a>
+      <div className="container">
+        <div className="inner-content">
+          <div className="brand">
+            <Link to="/">QueuedUp</Link>
+          </div>
 
-          
-            </div>    
-            <ul className = "navlinks"> 
-            <li> 
-            <a href ="/">WatchList</a>
-             </li>
-            
-            <li> 
-            <a href  ="/Watched">Watched</a>
+          <ul className="nav-links">
+            <li>
+              <Link to="/">Watch List</Link>
             </li>
-           
-            <li> 
-            < a href  ="/add" className = "btn" > + add </a>
+
+            <li>
+              <Link to="/watched">Watched</Link>
             </li>
-            
-            
-            </ul>
-          
-          </div>    
-          </div>           
-       
+
+            <li>
+              <Link to="/add" className="btn btn-main">
+                + Add
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-  )
-}
+  );
+};
