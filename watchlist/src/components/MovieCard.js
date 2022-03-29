@@ -1,6 +1,7 @@
 import React from "react";
 import { MovieControls } from "./MovieControls";
 import * as movieLinks from "./../movielinks.json"
+import { Stars } from "./Stars";
 
 
 
@@ -21,6 +22,8 @@ export const MovieCard = ({ movie, type }) => {
       />
 </a>
       <MovieControls type={type} movie={movie} />
+
+      <Stars title={movie.title} type={type}/>
     </div>
   );
 };
