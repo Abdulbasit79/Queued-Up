@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
 
 :root {
-  --primary: #032541;
-  --secondary: #21d07a;
-  --white: #fff;
+  --primary: #3f3c3c;
+  --secondary: #38d718;
+  --white: rgb(255, 255, 255);
 }
 
 body {

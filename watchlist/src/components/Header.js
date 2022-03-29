@@ -21,7 +21,7 @@ export const Header = () => {
 
             <li>
               <Link to="/add" className="btn btn-main">
-                + Add
+                + Search
               </Link>
             </li>
           </ul>
